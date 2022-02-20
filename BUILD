@@ -5,8 +5,5 @@ cc_library(
     hdrs = ["stb_image.h"],
     srcs = ["stb_image.cpp"],
     linkstatic = True,
-    includes = [""],
     strip_include_prefix = "",
-    defines = ["STB_IMAGE_IMPLEMENTATION"],
-
 )
